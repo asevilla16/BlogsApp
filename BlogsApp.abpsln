@@ -1,0 +1,40 @@
+{
+  "id": "afb97716-16ab-424a-a178-01d5896c3ecc",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "8.3.0",
+    "AbpStudio": "0.8.2"
+  },
+  "modules": {
+    "BlogsApp": {
+      "path": "BlogsApp.abpmdl"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": [
+        "^/metrics$"
+      ]
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app",
+    "createdAbpStudioVersion": "0.8.2",
+    "tiered": "false",
+    "uiFramework": "angular",
+    "databaseProvider": "ef",
+    "databaseManagementSystem": "sqlserver",
+    "separateTenantSchema": "false",
+    "theme": "leptonx-lite",
+    "themeStyle": "",
+    "mobileFramework": "none",
+    "progressiveWebApp": "false",
+    "publicWebsite": "false",
+    "socialLogin": ""
+  }
+}

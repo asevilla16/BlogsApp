@@ -1,0 +1,22 @@
+{
+  "Culture": "en",
+  "Texts": {
+    "AppName": "BlogsApp",
+    "Menu:Home": "Home",
+    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information visit",
+    "Welcome": "Welcome",
+    "AreYouSure": "Are you sure?",
+    "AreYouSureToDelete": "Are you sure you want to delete this item?",
+    "Menu:BlogApp": "Blog App",
+    "Menu:Categories": "Categories",
+    "Menu:Entries": "Entries",
+    "Menu:MyEntries": "My Entries",
+    "Actions": "Actions",
+    "Close": "Close",
+    "Delete": "Delete",
+    "Edit": "Edit",
+    "PublicationDate": "Publication date",
+    "NewEntry": "New Entry",
+    "NewCategory": "New Category"
+  }
+}

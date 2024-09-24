@@ -1,0 +1,85 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.3.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "BlogsApp.Application": {
+      "path": "src/BlogsApp.Application/BlogsApp.Application.abppkg",
+      "folder": "src"
+    },
+    "BlogsApp.Application.Tests": {
+      "path": "test/BlogsApp.Application.Tests/BlogsApp.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "BlogsApp.Domain.Shared": {
+      "path": "src/BlogsApp.Domain.Shared/BlogsApp.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "BlogsApp.Application.Contracts": {
+      "path": "src/BlogsApp.Application.Contracts/BlogsApp.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "BlogsApp.HttpApi": {
+      "path": "src/BlogsApp.HttpApi/BlogsApp.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "BlogsApp.HttpApi.Client": {
+      "path": "src/BlogsApp.HttpApi.Client/BlogsApp.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "BlogsApp.EntityFrameworkCore.Tests": {
+      "path": "test/BlogsApp.EntityFrameworkCore.Tests/BlogsApp.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "BlogsApp.EntityFrameworkCore": {
+      "path": "src/BlogsApp.EntityFrameworkCore/BlogsApp.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "BlogsApp.TestBase": {
+      "path": "test/BlogsApp.TestBase/BlogsApp.TestBase.abppkg",
+      "folder": "test"
+    },
+    "BlogsApp.Domain.Tests": {
+      "path": "test/BlogsApp.Domain.Tests/BlogsApp.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "BlogsApp.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/BlogsApp.HttpApi.Client.ConsoleTestApp/BlogsApp.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "BlogsApp.DbMigrator": {
+      "path": "src/BlogsApp.DbMigrator/BlogsApp.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "BlogsApp.HttpApi.Host": {
+      "path": "src/BlogsApp.HttpApi.Host/BlogsApp.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "BlogsApp.Domain": {
+      "path": "src/BlogsApp.Domain/BlogsApp.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+  "applications": {
+    "BlogsApp.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44380",
+      "path": "../../../src/BlogsApp.HttpApi.Host/BlogsApp.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$"  
+    },
+    "BlogsApp.Angular": {
+      "type": "cli",
+      "workingDirectory": "../../../angular",
+      "startCommand": "./start.ps1",
+      "launchUrl": "http://localhost:4200",
+      "kubernetesService": ".*-angular$"        
+    }
+  }
+}
